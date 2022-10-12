@@ -10,6 +10,9 @@ public class Item {
     public String getName() {
         return name;
     }
+    public int getPrice() {
+        return price;
+    } // Additional method to pull the price of the item.
     @Override
     public String toString(){
         return  name + ":"
